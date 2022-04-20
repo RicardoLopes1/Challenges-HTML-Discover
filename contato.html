@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contatos</title>
+</head>
+
+<body>
+
+  <form action="" method="get">
+    <fieldset>
+      <legend autofocus>
+        Entre em contato
+      </legend>
+
+      <label>
+        Assunto:
+        <select name="assunto" id="assunto" required>
+          <option value="">Selecione</option>
+          <option value="suporte">Suporte</option>
+          <option value="sugestao">Sugestão</option>
+          <option value="reclamacao">Reclamação</option>
+        </select>
+      </label>
+      <br>
+      <br>
+
+      <label>
+        Data e hora preferencial para contato:
+        <input type="datetime-local" name="data" id="data" required>
+      </label>
+      <br>
+      <br>
+
+      <label>
+        Nome completo: <br>
+        <input type="text" name="nome" id="nome" autocomplete="name" placeholder="Seu nome completo" required>
+      </label>
+      <br>
+      <br>
+
+      <label>
+        E-mail: <br>
+        <input type="email" name="email" id="email" autocomplete="email" placeholder="meuemail@email.com" 
+        minlength="7" maxlength="100" required>
+      </label>
+      <br>
+      <br>
+
+      <label>
+        Mensagem: <br>
+        <textarea name="mensagem" id="mensagem" cols="25" rows="7" 
+        placeholder="Digite sua mensagem" maxlength="650" required></textarea>
+      </label>
+      <br>
+      <br>
+
+      <label>
+        <input type="checkbox" name="subscribe" id="subscribe"> Aceito receber novidades por e-mail.
+      </label>
+      <br>
+      <br>
+
+      <button type="submit" style="background-color: blue;">Enviar</button>
+      <button type="reset" style="background-color: red;">Limpar</button>
+    </fieldset>
+
+  </form>
+</body>
+
+</html>
