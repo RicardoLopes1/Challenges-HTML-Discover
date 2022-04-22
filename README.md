@@ -6,7 +6,7 @@
 
 [x] 2. Formulário de contato - (`contato.html`)
 
-[ ] 3. Lista de compras
+[x] 3. Lista de compras - (`shopping-list.html`)
 
 [ ] 4. Quiz
 
