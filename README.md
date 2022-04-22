@@ -8,6 +8,6 @@
 
 [x] 3. Lista de compras - (`shopping-list.html`)
 
-[ ] 4. Quiz
+[x] 4. Quiz - (`quiz.html`)
 
 [ ] 5. Blog Post
