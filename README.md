@@ -10,4 +10,4 @@
 
 [x] 4. Quiz - (`quiz.html`)
 
-[ ] 5. Blog Post
+[x] 5. Blog Post - (`blog-post.html`)
